@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+  "-//mybatis.org//DTD Mapper 3.0//EN" 
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.estore.dao.CategoryMapper">
+	<!-- 查询一级栏目及其对应的二级栏目 -->
+	<!-- 查询所有一级栏目 -->
+	<select id="selectFirstCategory" resultMap="categoryResultMap">
+		select * from es_category
+		where category_id is null
+	</select>
+	<!-- 根据一级目录id查询二级目录 -->
+	<select id="selectSecondCategory" parameterType="int" resultType="Category">
+		select * from es_category
+		where category_id=#{id}
+	</select>
+	<!-- 一对一关系resultMap中需定义association，一对多 -->
+	<!-- 如果表中字段和 -->
+	<resultMap type="Category" id="categoryResultMap">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<result column="description" property="description"/>
+		<collection column="id" select="selectSecondCategory" property="categories"></collection>
+	</resultMap>
+</mapper>

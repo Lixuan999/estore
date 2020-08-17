@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+  "-//mybatis.org//DTD Mapper 3.0//EN" 
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.estore.dao.ShopAddressMapper">
+	<!-- 根据客户的id查询所有的客户信息 -->
+	<select id="selectAddressByCustId" parameterType="int" 
+	resultType="ShopAddress">
+		select * from es_shopaddress
+		where customer_id=#{custId}
+	</select>
+		<!-- 根据地址的id查询所有的客户信息 -->
+	<select id="selectAddressById" parameterType="int" 
+	resultType="ShopAddress">
+		select * from es_shopaddress
+		where id=#{id}
+	</select>
+</mapper>

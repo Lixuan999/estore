@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.briup.estore.bean.Category"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.ICategoryServlet"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.impl.ICategoryServletImpl"/>
+<fullyQualifiedTypeName name="com.briup.estore.bean.Book"/>
+<fullyQualifiedTypeName name="com.briup.estore.dao.CategoryMapper"/>
+<fullyQualifiedTypeName name="com.briup.estore.dao.BookMapper"/>
+<fullyQualifiedTypeName name="com.briup.estore.dao.CustomerMapper"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.StringUtils"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.buf.StringUtils"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.codec.binary.StringUtils"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.impl.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.ICustomerService"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.impl.BookServiceImpl"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.IBookService"/>
+<fullyQualifiedTypeName name="com.briup.estore.bean.OrderLine"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.briup.estore.bean.ShopAddress"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.IShopAddressService"/>
+<fullyQualifiedTypeName name="com.briup.estore.utils.MyBatisSqlSessionFactory"/>
+<fullyQualifiedTypeName name="com.briup.estore.dao.ShopAddressMapper"/>
+<fullyQualifiedTypeName name="com.briup.estore.bean.Customer"/>
+<fullyQualifiedTypeName name="com.briup.estore.service.impl.ShopAddressServiceImpl"/>
+<fullyQualifiedTypeName name="com.briup.estore.bean.ShopCar"/>
+</qualifiedTypeNameHistroy>

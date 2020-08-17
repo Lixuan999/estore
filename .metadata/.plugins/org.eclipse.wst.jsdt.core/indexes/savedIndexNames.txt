@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\birupÏîÄ¿\estor-project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+408251710.index
+3518845499.index
+2007180861.index
+2001844983.index
+814624417.index
+2406977594.index
